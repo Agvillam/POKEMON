@@ -1,6 +1,5 @@
 ﻿  Pokemon.cpp
-C:\Users\gabri\OneDrive\Documentos\GitHub\POKEMON\POKEMON\src\Pokemon.cpp(54,13): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\gabri\OneDrive\Documentos\GitHub\POKEMON\POKEMON\src\Pokemon.cpp(55,12): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\gabri\OneDrive\Documentos\GitHub\POKEMON\POKEMON\src\Pokemon.cpp(57,15): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
-C:\Users\gabri\OneDrive\Documentos\GitHub\POKEMON\POKEMON\src\Pokemon.cpp(58,15): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+C:\Users\gabri\OneDrive\Documentos\GitHub\POKEMON\POKEMON\src\Pokemon.cpp(15,29): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\gabri\OneDrive\Documentos\GitHub\POKEMON\POKEMON\src\Pokemon.cpp(15,21): warning C4244: 'argumento': conversión de 'float' a 'int'; posible pérdida de datos
+C:\Users\gabri\OneDrive\Documentos\GitHub\POKEMON\POKEMON\src\Pokemon.cpp(48,22): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
   POKEMON.vcxproj -> C:\Users\gabri\OneDrive\Documentos\GitHub\POKEMON\POKEMON\bin\POKEMON.exe

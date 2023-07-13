@@ -134,7 +134,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\Mundo.cpp" />
     <ClCompile Include="src\Pokemon.cpp" />
+    <ClCompile Include="src\Town.cpp" />
+    <ClCompile Include="src\Trainer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Mundo.h" />
+    <ClInclude Include="src\Town.h" />
+    <ClInclude Include="src\Trainer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
