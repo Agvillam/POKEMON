@@ -1,19 +1,31 @@
 #pragma once
 #include "Town.h"
+#include "ETSIDI.h"
 
 class Mundo{
-	int num_ciu = 0;
-	Town** cities;
+	enum Escenarios { INTRO, MADRID, BARCELONA };
+	Escenarios escenario;
+
 public:
-	Mundo() {
-		for (int i = 0;i < num_ciu;i++) {
-			cities[i] = new Town;
+	Mundo() :escenario(INTRO) {};
+	void dibuja();
+	void Imagen(char* imagen );
+	void setScene(Escenarios a) {
+		switch (a){
+		case Mundo::INTRO:
+			escenario = INTRO;
+			break;
+		case Mundo::MADRID:
+			escenario = MADRID;
+			break;
+		case Mundo::BARCELONA:
+			escenario = BARCELONA;
+			break;
+		default:
+			break;
 		}
 	}
-	void operator += (Town a) {
-		num_ciu++;
-		cities[num_ciu] = &a;
-	}
-	void dibuja();
+
+
 };
 

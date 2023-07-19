@@ -9,7 +9,7 @@ protected:
 	Trainer** enemigo;
 public:
 	Town() :num_enemy(6){
-		for (int i=0;i < num_enemy;i++) { *enemigo = new Trainer;} }
+		for (int i=0;i < num_enemy;i++) { /*enemigo = new Trainer*/;} }
 	virtual void render() {};
 	void operator + (Trainer a) { 
 		principal = a;
@@ -18,11 +18,11 @@ public:
 	}
 };
 
+
 class Madrid :public Town {
 	std::string nombre;
 public:
 	Madrid() :Town() { nombre = "MADRID"; };
 	void render();
-
 };
 

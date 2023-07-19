@@ -2,9 +2,11 @@
 #include "Trainer.h"
 #include "Town.h"
 #include <math.h>
+#include "Mundo.h"
 
 Trainer Ash;
 Town Madrid;
+Mundo MiMundo;
 
 
 void OnDraw(void); //esta funcion sera llamada para dibujar
@@ -42,17 +44,17 @@ int main(int argc, char* argv[])
 }
 
 void OnDraw(void){
-	
+	MiMundo.dibuja();
 	
 }
 
-//void OnKeyboardDown(unsigned char key, int x_t, int y_t)
-//{
+void OnKeyboardDown(unsigned char key, int x_t, int y_t)
+{
 //	//poner aqui el código de teclado
 //	Ash.moving();
 //
 //	
-//}
+}
 
 void OnTimer(int value)
 {
